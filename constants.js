@@ -164,11 +164,11 @@ export const LANGUAGES_URL = [
     //     folder: "tr",
     //     url: getLanguageUrl("turkish"),
     // },
-    // {
-    //     language: "ukrainian",
-    //     folder: "uk",
-    //     url: getLanguageUrl("ukrainian"),
-    // },
+     {
+         language: "ukrainian",
+         folder: "uk",
+         url: getLanguageUrl("ukrainian"),
+     },
     // {
     //     language: "vietnamese",
     //     folder: "vi",
