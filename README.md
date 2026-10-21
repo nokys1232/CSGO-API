@@ -291,6 +291,7 @@ Example response:
     name: "Charm | Lil' Ava",
     description:
       "This charm can be attached to any weapon you own. Each attached charm can be detached by using a Charm Detachment. Detached charms will be returned to your inventory.",
+    icon_base: "kc_missinglink",
     rarity: {
       id: "rarity_rare",
       name: "High Grade",
@@ -325,6 +326,8 @@ Example response:
   {
     id: "collection-set-community-3",
     name: "The Huntsman Collection",
+    description: null,
+    release_date: "2014-05-02",
     crates: [
       {
         id: "crate-4017",
@@ -564,6 +567,7 @@ Example response:
     name: "Sealed Graffiti | Chabo",
     description:
       "This is a sealed container of a graffiti pattern. Once this graffiti pattern is unsealed, it will provide you with enough charges to apply the graffiti pattern <b>50</b> times to the in-game world.",
+    tint: null,
     rarity: {
       id: "rarity_rare",
       name: "High Grade",
@@ -643,18 +647,62 @@ GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highli
 ```js
 [
   {
-    id: "aus2025_chopper2kvsmouzonmirage1",
+    id: "highlight-1",
+    def_index: "1",
     name: "Souvenir Charm | Austin 2025 Highlight | chopper Double Kill",
     description: "chopper gets a double kill on the A-site defense from Balcony on Mirage.",
     tournament_event: "Austin 2025",
     team0: "Team Spirit",
     team1: "MOUZ",
     stage: "Quarterfinal",
+    tournament_player: "chopper", // null when type is "team"
+    type: "player", // "player" or "team"
     map: "de_mirage",
     market_hash_name: "Souvenir Charm | Austin 2025 Highlight | chopper Double Kill",
     image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/aus2025/kc_aus2025_png.png",
-    video: "https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/024/081v106_005/024_081v106_005_de_mirage_aus2025_chopper2kvsmouzonmirage1_ww_1080p.webm"
+    video: "https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/024/081v106_005/024_081v106_005_de_mirage_aus2025_chopper2kvsmouzonmirage1_ww_1080p.webm",
+    thumbnail: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/highlightreels/ww/1.webp",
+    original: {
+      id: "aus2025_chopper2kvsmouzonmirage1",
+      image_inventory: "econ/keychains/aus2025/kc_aus2025",
+    },
   },
+]
+```
+
+### List pets
+
+```http
+GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/pets.json
+```
+
+One entry per pet and style. Adult chickens have a `style` (their breed color); the egg and the chick don't. The game has no inventory images for chickens, so they are rendered from the game models by the [image tracker](https://github.com/ByMykel/counter-strike-image-tracker).
+
+```js
+[
+  {
+    id: "pet-5_9",
+    pet_id: "5",
+    style: 9, // null for pets without styles
+    name: "Pet Chicken | Polish (Pink)",
+    description: null,
+    breed: "Polish", // null for pets without styles
+    color: "Pink", // null for pets without styles
+    rarity: {
+      id: "rarity_rare",
+      name: "High Grade",
+      color: "#4b69ff",
+    },
+    image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/refs/heads/main/static/pets/chicken_polish_pink.png",
+    original: {
+      name: "chicken_polish_01",
+      loc_name: "#pet_chicken",
+      pedestal_display_model: "models/chicken/chicken_polish.vmdl",
+      image_inventory: null,
+      material: "chicken_polish_pink",
+    },
+  },
+  // ...
 ]
 ```
 
@@ -664,7 +712,7 @@ GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highli
 GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/inventory.json
 ```
 
-Object with all items organized by category (skins, crates, collectibles, stickers, graffiti, music_kits, keychains, highlights, agents, patches, keys, sticker_slabs, tools). Skins are keyed by weapon_id and paint_index. Other items are keyed by def_index.
+Object with all items organized by category (skins, crates, collectibles, stickers, graffiti, music_kits, keychains, highlights, agents, patches, keys, sticker_slabs, tools, pets). Skins are keyed by weapon_id and paint_index. Pets are keyed by pet id and style (`<pet_id>_<style>`, or `<pet_id>` for pets without styles). Other items are keyed by def_index.
 
 Example response:
 

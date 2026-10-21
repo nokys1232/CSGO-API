@@ -38,5 +38,15 @@
   "original": {
    "image_inventory": "econ/tools/keychain_remove_tool"
   }
+ },
+ {
+  "id": "tool-6",
+  "name": "鸡饲料",
+  "description": "喂你的宠物让它留在身边。",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_feed_bag_png.png",
+  "def_index": "4949",
+  "original": {
+   "image_inventory": "econ/pets/chicken_feed_bag"
+  }
  }
 ]

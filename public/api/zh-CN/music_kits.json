@@ -3296,7 +3296,7 @@
  {
   "id": "music_kit-101",
   "name": "音乐盒 | Pirapus, 每夜",
-  "description": "这个音乐盒将替换游戏中的所有音乐，并且能和与您一起游戏的所有玩家分享。当您成为 MVP 时，音乐盒将向比赛中的所有玩家高奏 MVP 凯歌。\\n\\n音乐盒将替换以下音乐：\\n- 主菜单\\n- 回合开始和结束\\n- 地图目标\\n- 十秒警告\\n- 死亡视角<br/><br/>Pirapus这首高能量的鼓打贝斯金曲《每夜》令人彷佛感到伟大触手可及。正如其名，这首歌定会让你每个夜晚都能沉浸其中。",
+  "description": "这个音乐盒将替换游戏中的所有音乐，并且能和与您一起游戏的所有玩家分享。当您成为 MVP 时，音乐盒将向比赛中的所有玩家高奏 MVP 凯歌。\\n\\n音乐盒将替换以下音乐：\\n- 主菜单\\n- 回合开始和结束\\n- 地图目标\\n- 十秒警告\\n- 死亡视角<br/><br/>Pirapus这首高能量的鼓打贝斯金曲《每夜》令人仿佛感到伟大触手可及。正如其名，这首歌定会让你每个夜晚都能沉浸其中。",
   "def_index": "101",
   "rarity": {
    "id": "rarity_rare",
@@ -3314,7 +3314,7 @@
  {
   "id": "music_kit-101_st",
   "name": "StatTrak™ 音乐盒 | Pirapus, 每夜",
-  "description": "<span style='color:#99ccff;'>该物品具有 StatTrak™ 技术，在其所有者装备时能跟踪若干统计数据。</span><br/><br/><span style='color:#cf6a32;'>该物品记录官方竞技 MVP 次数。</span><br/><br/>这个音乐盒将替换游戏中的所有音乐，并且能和与您一起游戏的所有玩家分享。当您成为 MVP 时，音乐盒将向比赛中的所有玩家高奏 MVP 凯歌。\\n\\n音乐盒将替换以下音乐：\\n- 主菜单\\n- 回合开始和结束\\n- 地图目标\\n- 十秒警告\\n- 死亡视角<br/><br/>Pirapus这首高能量的鼓打贝斯金曲《每夜》令人彷佛感到伟大触手可及。正如其名，这首歌定会让你每个夜晚都能沉浸其中。",
+  "description": "<span style='color:#99ccff;'>该物品具有 StatTrak™ 技术，在其所有者装备时能跟踪若干统计数据。</span><br/><br/><span style='color:#cf6a32;'>该物品记录官方竞技 MVP 次数。</span><br/><br/>这个音乐盒将替换游戏中的所有音乐，并且能和与您一起游戏的所有玩家分享。当您成为 MVP 时，音乐盒将向比赛中的所有玩家高奏 MVP 凯歌。\\n\\n音乐盒将替换以下音乐：\\n- 主菜单\\n- 回合开始和结束\\n- 地图目标\\n- 十秒警告\\n- 死亡视角<br/><br/>Pirapus这首高能量的鼓打贝斯金曲《每夜》令人仿佛感到伟大触手可及。正如其名，这首歌定会让你每个夜晚都能沉浸其中。",
   "def_index": "101",
   "rarity": {
    "id": "rarity_rare",
@@ -3399,6 +3399,42 @@
   "original": {
    "name": "shockone_01",
    "image_inventory": "econ/music_kits/shockone_01"
+  }
+ },
+ {
+  "id": "music_kit-104",
+  "name": "音乐盒 | Starjunk 95，工业忆夕",
+  "description": "这个音乐盒将替换游戏中的所有音乐，并且能和与您一起游戏的所有玩家分享。当您成为 MVP 时，音乐盒将向比赛中的所有玩家高奏 MVP 凯歌。\\n\\n音乐盒将替换以下音乐：\\n- 主菜单\\n- 回合开始和结束\\n- 地图目标\\n- 十秒警告\\n- 死亡视角<br/><br/>体验来自银河系中最带感电台的音乐盒，融合了当今潮流音效与旧日复古氛围。这就是Starjunk 95。",
+  "def_index": "104",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "高级",
+   "color": "#4b69ff"
+  },
+  "market_hash_name": "Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "exclusive": false,
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJm-W91xg-oytv2a3EFOpycPlqCdatqGqOaE_I6nLVzbCw7pw4rZrTnHhwEtx6m-Dw43_JS-WcEZ-XYyGj8X1",
+  "original": {
+   "name": "starjunk95_01",
+   "image_inventory": "econ/music_kits/starjunk95_01"
+  }
+ },
+ {
+  "id": "music_kit-104_st",
+  "name": "StatTrak™音乐盒 | Starjunk 95，工业忆夕",
+  "description": "<span style='color:#99ccff;'>该物品具有 StatTrak™ 技术，在其所有者装备时能跟踪若干统计数据。</span><br/><br/><span style='color:#cf6a32;'>该物品记录官方竞技 MVP 次数。</span><br/><br/>这个音乐盒将替换游戏中的所有音乐，并且能和与您一起游戏的所有玩家分享。当您成为 MVP 时，音乐盒将向比赛中的所有玩家高奏 MVP 凯歌。\\n\\n音乐盒将替换以下音乐：\\n- 主菜单\\n- 回合开始和结束\\n- 地图目标\\n- 十秒警告\\n- 死亡视角<br/><br/>体验来自银河系中最带感电台的音乐盒，融合了当今潮流音效与旧日复古氛围。这就是Starjunk 95。",
+  "def_index": "104",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "高级",
+   "color": "#4b69ff"
+  },
+  "market_hash_name": "StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "exclusive": false,
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJm-W91xg-oytv2a3EFOpycPlqCdatqGqOaE_I6nLVzbCw7pw4rZrTnHhwEtx6m-Dw43_JS-WcEZ-XYyGj8X1",
+  "original": {
+   "name": "starjunk95_01",
+   "image_inventory": "econ/music_kits/starjunk95_01"
   }
  }
 ]
