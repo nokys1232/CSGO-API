@@ -715,6 +715,28 @@
   "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJKz2lu_XuWbwcuyMESA4Fdl-4nnpU7iQA3-kKnr8ytd6s2lfa9_Kb6VXmPGwuogsbNvSyi3zR4jsTnQztyqdS6QP1IoXpoiEeAC5Be5l9CxKaq8sIvgdE5J"
  },
  {
+  "id": "base_weapon-studded_brokenfang_gloves",
+  "name": "Рукавиці «Зламане ікло»",
+  "description": "Ці рукавиці з відкритими пальцями прикрашені металевими пластинками та логотипом операції «Зламане ікло».",
+  "def_index": 4725,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Рукавиці"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_bloodhound_gloves",
+  "name": "Рукавиці «Дойда»",
+  "description": "Ці рукавиці з відкритими пальцями прикрашені металевими пластинками та логотипом операції «Дойда».",
+  "def_index": 5027,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Рукавиці"
+  },
+  "image": null
+ },
+ {
   "id": "base_weapon-t_gloves",
   "name": "Стандартні рукавиці терористів",
   "description": "<i>«Ніколи не бійтеся забруднити руки в крові» — Валерія Дженнер, революціонерка</i>",
@@ -735,5 +757,71 @@
    "name": "Рукавиці"
   },
   "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+ },
+ {
+  "id": "base_weapon-sporty_gloves",
+  "name": "Спортивні рукавиці",
+  "description": "Синтетична тканина робить ці атлетичні рукавиці витривалими та помітними.",
+  "def_index": 5030,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Рукавиці"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-slick_gloves",
+  "name": "Рукавиці водія",
+  "description": "Ці водійські рукавиці захищають від різних речовин і водночас передають усі тактильні відчуття.",
+  "def_index": 5031,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Рукавиці"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-leather_handwraps",
+  "name": "Бинти на руки",
+  "description": "Боксерські бинти, яким надають перевагу в рукопашному бою. Захищають суглоби пальців та стабілізують зап’ястя під час ударів.",
+  "def_index": 5032,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Рукавиці"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-motorcycle_gloves",
+  "name": "Рукавиці мотоцикліста",
+  "description": "Ці міцні рукавиці захистять руки власника від падіння на швидкості 100 км/год.",
+  "def_index": 5033,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Рукавиці"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-specialist_gloves",
+  "name": "Рукавиці спеціаліста",
+  "description": "Витривалі, дихаючі та стильні — ці рукавиці створені для побиття.",
+  "def_index": 5034,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Рукавиці"
+  },
+  "image": null
+ },
+ {
+  "id": "base_weapon-studded_hydra_gloves",
+  "name": "Рукавиці «Гідра»",
+  "description": "Ці рукавиці з відкритими пальцями прикрашені металевими пластинками та логотипом операції «Гідра».",
+  "def_index": 5035,
+  "category": {
+   "id": "sfui_invpanel_filter_gloves",
+   "name": "Рукавиці"
+  },
+  "image": null
  }
 ]

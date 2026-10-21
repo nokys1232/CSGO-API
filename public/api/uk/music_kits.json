@@ -3400,5 +3400,41 @@
    "name": "shockone_01",
    "image_inventory": "econ/music_kits/shockone_01"
   }
+ },
+ {
+  "id": "music_kit-104",
+  "name": "Музичний альбом | Starjunk 95 — «Industrial Sunset Memories»",
+  "description": "Музичний альбом повністю замінює всю музику в грі; ним можна поділитися з іншими гравцями. До альбому також входить гімн найкращого гравця, що гратиме для всіх гравців у матчі, в якому вас було визнано найкращим гравцем.\\n\\nТеми, які замінює музичний альбом:\\n— головне меню;\\n— початок і кінець раунду;\\n— бойове завдання;\\n— десятисекундний відлік;\\n— смерть персонажа.<br/><br/>Насолоджуйтеся музичним альбомом із найкрутішої радіостанції галактики, що поєднує найновіші звуки сьогодення з вінтажною ностальгією за минулим. Це Starjunk 95.",
+  "def_index": "104",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "дуже рідкісний предмет",
+   "color": "#4b69ff"
+  },
+  "market_hash_name": "Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "exclusive": false,
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJm-W91xg-oytv2a3EFOpycPlqCdatqGqOaE_I6nLVzbCw7pw4rZrTnHhwEtx6m-Dw43_JS-WcEZ-XYyGj8X1",
+  "original": {
+   "name": "starjunk95_01",
+   "image_inventory": "econ/music_kits/starjunk95_01"
+  }
+ },
+ {
+  "id": "music_kit-104_st",
+  "name": "Музичний альбом зі СтатТрек™ | Starjunk 95 — «Industrial Sunset Memories»",
+  "description": "<span style='color:#99ccff;'>Цей предмет забезпечується технологією СтатТрек™, яка відстежує певну статистику власника.</span><br/><br/><span style='color:#cf6a32;'>Цей предмет відстежує надання нагороди найкращого гравця на офіційних змаганнях.</span><br/><br/>Музичний альбом повністю замінює всю музику в грі; ним можна поділитися з іншими гравцями. До альбому також входить гімн найкращого гравця, що гратиме для всіх гравців у матчі, в якому вас було визнано найкращим гравцем.\\n\\nТеми, які замінює музичний альбом:\\n— головне меню;\\n— початок і кінець раунду;\\n— бойове завдання;\\n— десятисекундний відлік;\\n— смерть персонажа.<br/><br/>Насолоджуйтеся музичним альбомом із найкрутішої радіостанції галактики, що поєднує найновіші звуки сьогодення з вінтажною ностальгією за минулим. Це Starjunk 95.",
+  "def_index": "104",
+  "rarity": {
+   "id": "rarity_rare",
+   "name": "дуже рідкісний предмет",
+   "color": "#4b69ff"
+  },
+  "market_hash_name": "StatTrak™ Music Kit | Starjunk 95, Industrial Sunset Memories",
+  "exclusive": false,
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGIijyEKzb_3d19nuJm-W91xg-oytv2a3EFOpycPlqCdatqGqOaE_I6nLVzbCw7pw4rZrTnHhwEtx6m-Dw43_JS-WcEZ-XYyGj8X1",
+  "original": {
+   "name": "starjunk95_01",
+   "image_inventory": "econ/music_kits/starjunk95_01"
+  }
  }
 ]

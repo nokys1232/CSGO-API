@@ -38,5 +38,15 @@
   "original": {
    "image_inventory": "econ/tools/keychain_remove_tool"
   }
+ },
+ {
+  "id": "tool-6",
+  "name": "Курячий корм",
+  "description": "Годуйте улюбленицю, аби вона лишалася поруч.",
+  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/pets/chicken_feed_bag_png.png",
+  "def_index": "4949",
+  "original": {
+   "image_inventory": "econ/pets/chicken_feed_bag"
+  }
  }
 ]
